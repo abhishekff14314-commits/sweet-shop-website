@@ -1,0 +1,273 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Abhishek Sweet Shop</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+background:#fff8f2;
+}
+
+header{
+background:#ff6b6b;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+nav{
+background:#333;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-size:18px;
+}
+
+section{
+padding:40px;
+text-align:center;
+}
+
+.sweets{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:25px;
+}
+
+.card{
+background:white;
+width:220px;
+padding:15px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+width:100%;
+border-radius:8px;
+}
+
+.whatsapp{
+background:#25D366;
+color:white;
+border:none;
+padding:10px;
+border-radius:6px;
+cursor:pointer;
+margin-top:10px;
+}
+
+.rating span{
+cursor:pointer;
+font-size:20px;
+}
+
+footer{
+background:#333;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Abhishek Sweet Shop</h1>
+<p>Fresh & Delicious Indian Sweets</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Menu</a>
+<a href="#">Contact</a>
+</nav>
+
+<section>
+
+<h2>Our Popular Sweets</h2>
+
+<div class="sweets">
+
+<div class="card">
+<h3>Gulab Jamun</h3>
+<p>₹20 per piece</p>
+
+<div class="rating">
+<span onclick="rate(1)">⭐</span>
+<span onclick="rate(2)">⭐</span>
+<span onclick="rate(3)">⭐</span>
+<span onclick="rate(4)">⭐</span>
+<span onclick="rate(5)">⭐</span>
+</div>
+
+<a href="https://wa.me/7226953151?text=Hello%20I%20want%20to%20order%20Gulab%20Jamun" target="_blank">
+<button class="whatsapp">Order on WhatsApp</button>
+</a>
+
+</div>
+
+<div class="card">
+<h3>Rasgulla</h3>
+<p>₹25 per piece</p>
+
+<div class="rating">
+<span onclick="rate(1)">⭐</span>
+<span onclick="rate(2)">⭐</span>
+<span onclick="rate(3)">⭐</span>
+<span onclick="rate(4)">⭐</span>
+<span onclick="rate(5)">⭐</span>
+</div>
+
+<a href="https://wa.me/7226953151?text=Hello%20I%20want%20to%20order%20Rasgulla" target="_blank">
+<button class="whatsapp">Order on WhatsApp</button>
+</a>
+
+</div>
+
+<div class="card">
+<h3>Laddu</h3>
+<p>₹15 per piece</p>
+
+<div class="rating">
+<span onclick="rate(1)">⭐</span>
+<span onclick="rate(2)">⭐</span>
+<span onclick="rate(3)">⭐</span>
+<span onclick="rate(4)">⭐</span>
+<span onclick="rate(5)">⭐</span>
+</div>
+
+<a href="https://wa.me/7226953151?text=Hello%20I%20want%20to%20order%20Laddu" target="_blank">
+<button class="whatsapp">Order on WhatsApp</button>
+</a>
+
+</div>
+
+<div class="card">
+<h3>kaju-katli</h3>
+<p>₹30 per piece</p>
+
+<div class="rating">
+<span onclick="rate(1)">⭐</span>
+<span onclick="rate(2)">⭐</span>
+<span onclick="rate(3)">⭐</span>
+<span onclick="rate(4)">⭐</span>
+<span onclick="rate(5)">⭐</span>
+</div>
+
+<a href="https://wa.me/7226953151?text=Hello%20I%20want%20to%20order%20Laddu" target="_blank">
+<button class="whatsapp">Order on WhatsApp</button>
+</a>
+
+</div>
+
+<div class="card">
+<h3>Barfi</h3>
+<p>₹10 per piece</p>
+
+<div class="rating">
+<span onclick="rate(1)">⭐</span>
+<span onclick="rate(2)">⭐</span>
+<span onclick="rate(3)">⭐</span>
+<span onclick="rate(4)">⭐</span>
+<span onclick="rate(5)">⭐</span>
+</div>
+
+<a href="https://wa.me/7226953151?text=Hello%20I%20want%20to%20order%20Laddu" target="_blank">
+<button class="whatsapp">Order on WhatsApp</button>
+</a>
+
+</div>
+
+<div class="card">
+<h3>Ras-malai</h3>
+<p>₹35 per piece</p>
+
+<div class="rating">
+<span onclick="rate(1)">⭐</span>
+<span onclick="rate(2)">⭐</span>
+<span onclick="rate(3)">⭐</span>
+<span onclick="rate(4)">⭐</span>
+<span onclick="rate(5)">⭐</span>
+</div>
+
+<a href="https://wa.me/7226953151?text=Hello%20I%20want%20to%20order%20Laddu" target="_blank">
+<button class="whatsapp">Order on WhatsApp</button>
+</a>
+
+</div>
+
+<div class="card">
+<h3>samaosa</h3>
+<p>₹10 per piece</p>
+
+<div class="rating">
+<span onclick="rate(1)">⭐</span>
+<span onclick="rate(2)">⭐</span>
+<span onclick="rate(3)">⭐</span>
+<span onclick="rate(4)">⭐</span>
+<span onclick="rate(5)">⭐</span>
+</div>
+
+<a href="https://wa.me/7226953151?text=Hello%20I%20want%20to%20order%20Laddu" target="_blank">
+<button class="whatsapp">Order on WhatsApp</button>
+</a>
+
+</div>
+
+
+
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Our Location</h2>
+
+<iframe
+width="400"
+height="300"
+style="border:0"
+loading="lazy"
+allowfullscreen
+src="https://www.google.com/maps?q=Ahmedabad&output=embed">
+</iframe>
+
+</section>
+
+<section>
+
+<h2>Contact</h2>
+<p>📞 7226953151</p>
+<p>📍 Ahmedabad</p>
+
+</section>
+
+<footer>
+<p>© 2026 Abhishek Sweet Shop</p>
+</footer>
+
+<script>
+
+function rate(num){
+alert("You rated " + num + " stars!");
+}
+
+</script>
+
+</body>
+</html>
